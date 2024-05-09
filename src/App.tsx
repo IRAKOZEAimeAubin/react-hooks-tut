@@ -1,7 +1,11 @@
+import StateTutorial from './pages/StateTutorial'
+
 function App() {
   return (
-    <h1 className="font-montserrat">Hello Hooks</h1>
-  )
+    <div className='w-[100%] p-10'>
+      <StateTutorial />
+    </div>
+  );
 }
 
 export default App
